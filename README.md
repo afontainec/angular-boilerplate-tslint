@@ -31,13 +31,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Add the following packages:
 
 - TSLint (eg2.tslint) v1.0.44
-- Prettier (esbenp.prettier-vscode) v5.0.0.0
-
-To have auto fix on save add the following .vscode/settings.json
-
-```JSON
-{
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true
-}
-```
