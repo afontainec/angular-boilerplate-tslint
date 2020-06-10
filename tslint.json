@@ -1,5 +1,5 @@
 {
-  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "extends": ["tslint:recommended"],
   "rules": {
     "semicolon": true,
     "array-type": false,
@@ -7,6 +7,7 @@
     "deprecation": {
       "severity": "warning"
     },
+    "space-after-function-paren": true,
     "component-class-suffix": true,
     "contextual-lifecycle": true,
     "directive-class-suffix": true,
@@ -20,7 +21,7 @@
     "member-ordering": [
       true,
       {
-        "order": ["static-field", "instance-field", "static-method", "instance-method"]
+        "order": ["static-field", "instance-field","static-method", "instance-method"]                   
       }
     ],
     "no-consecutive-blank-lines": false,
@@ -37,6 +38,7 @@
     "ordered-imports": false,
     "quotemark": [true, "single"],
     "trailing-comma": false,
+    "no-irregular-whitespace": true,
     "no-conflicting-lifecycle": true,
     "no-host-metadata-property": true,
     "no-input-rename": true,
@@ -48,6 +50,8 @@
     "template-banana-in-box": true,
     "template-no-negated-async": true,
     "use-lifecycle-interface": true,
+    "no-trailing-whitespace": true,
+    "no-duplicate-imports": [true, {"allow-namespace-imports": true}],
     "use-pipe-transform-interface": true
   },
   "rulesDirectory": ["codelyzer"]
